@@ -1,0 +1,11 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "semi": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "comma-dangle": "off",
+    "jsx-quotes": ["error", "prefer-single"],
+    "object-curly-newline": "off"
+  }
+}
