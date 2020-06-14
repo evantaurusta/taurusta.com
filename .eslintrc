@@ -1,5 +1,5 @@
 {
-  "extends": "airbnb",
+  "extends": ["airbnb", "prettier"],
   "rules": {
     "semi": "off",
     "react/jsx-filename-extension": "off",
