@@ -1,11 +1,18 @@
 import React from 'react'
-import Layout from './layout'
+import PropTypes from 'prop-types'
 
-export default function Card({ company, description }) {
+const Card = ({ company, description }) => {
   return (
-    <Layout>
+    <>
       <h2>{company}</h2>
       <h4>{description}</h4>
-    </Layout>
+    </>
   )
 }
+
+Card.PropTypes = {
+  company: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+}
+
+export default Card
