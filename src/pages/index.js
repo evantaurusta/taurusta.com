@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Card from '../components/card'
 
 const IndexPage = () => (
   <Layout>
@@ -11,6 +12,7 @@ const IndexPage = () => (
     <h3>My name is Evan...</h3>
     <p>I&#8217;m a software engineer based in Seattle</p>
     <p>Now go build something great.</p>
+    <Card company='Expedia Group' description='Working for 2 years' />
     <Link to='/page-2/'>Go to page 2</Link>
   </Layout>
 )
