@@ -10,7 +10,7 @@ const Card = ({ company, description }) => {
   )
 }
 
-Card.PropTypes = {
+Card.propTypes = {
   company: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
 }
