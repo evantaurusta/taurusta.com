@@ -6,7 +6,7 @@ import SEO from '../components/seo'
 export default function MoviesPage() {
   return (
     <Layout>
-      <SEO title='Home' />
+      <SEO title='Movie' />
       <h1> These are my movies</h1>
     </Layout>
   )
