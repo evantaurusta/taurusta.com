@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Personal Website
 </h1>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/00837c6d-d2c5-4f09-9d12-24ed9c769cd2/deploy-status)](https://app.netlify.com/sites/taurusta/deploys)
