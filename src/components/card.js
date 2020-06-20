@@ -2,16 +2,23 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-const h2 = styled.h2`
+const Title = styled.h2`
+  margin-bottom: 1rem;
   background-color: grey;
+  padding: 0.3rem;
+`
+const Container = styled.div`
+  width: 100%;
+  background: red;
+  padding: 0.75rem;
 `
 
 const Card = ({ company, description }) => {
   return (
-    <>
-      <h2>{company}</h2>
+    <Container>
+      <Title>{company}</Title>
       <h4>{description}</h4>
-    </>
+    </Container>
   )
 }
 
