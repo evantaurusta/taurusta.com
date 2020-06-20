@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
+<<<<<<< HEAD
 const Title = styled.h2`
   margin-bottom: 1rem;
   background-color: grey;
@@ -11,6 +12,10 @@ const Container = styled.div`
   width: 100%;
   background: red;
   padding: 0.75rem;
+=======
+const h2 = styled.h2`
+  background-color: grey;
+>>>>>>> cd7869da3879405c7fc36f494ca8a24bb61447fe
 `
 
 const Card = ({ company, description }) => {
