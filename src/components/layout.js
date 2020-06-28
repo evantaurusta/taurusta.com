@@ -8,26 +8,28 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import styled from 'styled-components'
 import Header from './header'
-import '../styles/layout.css'
+import GlobalStyle from '../styles/globalStyle'
+
+const LayoutContainer = styled.div`
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 0 1.0875rem 1.45rem;
+`
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Header siteTitle='Homepage' />
-      <div
-        style={{
-          margin: '0 auto',
-          maxWidth: 960,
-          padding: '0 1.0875rem 1.45rem',
-        }}
-      >
+      <GlobalStyle />
+      <Header />
+      <LayoutContainer>
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with{' '}
           <a href='https://www.gatsbyjs.org'>Gatsby</a>
         </footer>
-      </div>
+      </LayoutContainer>
     </>
   )
 }

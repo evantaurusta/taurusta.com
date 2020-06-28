@@ -4,12 +4,13 @@ import styled from 'styled-components'
 
 const Title = styled.h2`
   margin-bottom: 1rem;
-  background-color: grey;
+  background: lightcoral;
+  color: white;
   padding: 0.3rem;
 `
 const Container = styled.div`
-  width: 100%;
-  background: red;
+  background: slateblue;
+  color: white;
   padding: 0.75rem;
 `
 

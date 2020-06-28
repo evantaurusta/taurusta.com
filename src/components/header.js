@@ -1,18 +1,21 @@
 import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
+import Navigation from './navigation'
 
 const HeaderWrapper = styled.header`
-  background-color: slategrey;
+  background: slategrey;
   margin-bottom: 1.45rem;
 `
-const HeaderContainer = styled.div`
+const HeaderContainer = styled.header`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 80%;
   padding: 1.45rem 1.0875rem;
 `
-const Heading = styled.h1`
+const Logo = styled.h3`
   margin: 0;
 `
 
@@ -21,22 +24,15 @@ const HeadingLink = styled(Link)`
   text-decoration: none;
 `
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <HeaderWrapper>
     <HeaderContainer>
-      <Heading>
-        <HeadingLink to='/'>{siteTitle}</HeadingLink>
-      </Heading>
+      <Logo>
+        <HeadingLink to='/'>Evan Lie</HeadingLink>
+      </Logo>
+      <Navigation />
     </HeaderContainer>
   </HeaderWrapper>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: '',
-}
 
 export default Header
