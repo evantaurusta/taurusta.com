@@ -5,7 +5,6 @@ import Navigation from './navigation'
 
 const HeaderWrapper = styled.header`
   background: slategrey;
-  margin-bottom: 1.45rem;
 `
 const HeaderContainer = styled.header`
   display: flex;

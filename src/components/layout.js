@@ -11,6 +11,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Header from './header'
 import GlobalStyle from '../styles/globalStyle'
+import Footer from './Footer'
 
 const LayoutContainer = styled.div`
   margin: 0 auto;
@@ -25,11 +26,8 @@ const Layout = ({ children }) => {
       <Header />
       <LayoutContainer>
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with{' '}
-          <a href='https://www.gatsbyjs.org'>Gatsby</a>
-        </footer>
       </LayoutContainer>
+      <Footer />
     </>
   )
 }
