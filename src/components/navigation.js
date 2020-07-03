@@ -7,7 +7,7 @@ const NavContainer = styled.div`
 const NavItem = styled.h4`
   display: inline-block;
   padding: 0px 20px;
-  margin-bottom: 0;
+  margin: 0;
   color: white;
 `
 
