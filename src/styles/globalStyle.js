@@ -27,7 +27,6 @@ html {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', Helvetica, sans-serif;
     color: hsla(0, 0%, 0%, 0.8);
     font-weight: normal;
     word-wrap: break-word;
