@@ -11,7 +11,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Header from './header'
 import GlobalStyle from '../styles/globalStyle'
-import Footer from './footer'
+// import Footer from './footer'
 
 const LayoutContainer = styled.div`
   margin: 0 auto;
@@ -27,7 +27,6 @@ const Layout = ({ children }) => {
       <LayoutContainer>
         <main>{children}</main>
       </LayoutContainer>
-      <Footer />
     </>
   )
 }
