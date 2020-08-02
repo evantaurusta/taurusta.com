@@ -11,7 +11,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Header from './header'
 import GlobalStyle from '../styles/globalStyle'
-import Footer from './Footer'
+import Footer from './footer'
 
 const LayoutContainer = styled.div`
   margin: 0 auto;
